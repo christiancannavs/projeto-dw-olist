@@ -1,10 +1,10 @@
-# Dicionário de Dados — Data Warehouse Olist
+# Dicionário de Dados-Data Warehouse Olist
 
 ## Camada: Data Warehouse (Esquema Estrela)
 
 ---
 
-### dim_date — Dimensão de Data
+### dim_date-Dimensão de Data
 
 | Coluna | Tipo | Descrição | Exemplo |
 |--------|------|-----------|---------|
@@ -23,7 +23,7 @@
 
 ---
 
-### dim_customer — Dimensão de Cliente (SCD Type 2)
+### dim_customer-Dimensão de Cliente (SCD Type 2)
 
 | Coluna | Tipo | Descrição | Exemplo |
 |--------|------|-----------|---------|
@@ -40,7 +40,7 @@
 
 ---
 
-### dim_product — Dimensão de Produto
+### dim_product-Dimensão de Produto
 
 | Coluna | Tipo | Descrição | Exemplo |
 |--------|------|-----------|---------|
@@ -55,7 +55,7 @@
 
 ---
 
-### dim_seller — Dimensão de Vendedor
+### dim_seller-Dimensão de Vendedor
 
 | Coluna | Tipo | Descrição | Exemplo |
 |--------|------|-----------|---------|
@@ -67,7 +67,7 @@
 
 ---
 
-### fact_sales — Tabela Fato de Vendas
+### fact_sales-Tabela Fato de Vendas
 
 **Grain**: 1 linha por item de pedido (combinação única de `order_id` + `order_item_id`)
 
